@@ -1,0 +1,108 @@
+Steps to Execute the Simple Banking Application Code in VS Code:
+
+1. Install Java Development Kit (JDK)
+Download and install JDK from Oracle's JDK Downloads.
+Verify installation by opening the terminal and typing:
+java -version
+
+2. Install VS Code
+Download and install VS Code from Visual Studio Code.
+
+3. Install Java Extensions in VS Code
+Open VS Code.
+Go to Extensions view by pressing Ctrl+Shift+X.
+Search for and install Java Extension Pack.
+
+4. Create a Project Folder
+Create a folder on your computer for your project (e.g., SimpleBankingApp).
+Open VS Code and select File > Open Folder, then select the project folder.
+
+5. Create a Java File
+In VS Code, click on Explorer (left sidebar) and then click New File.
+Name the file BankingApp.java.
+
+6. Paste the Code
+Copy the Java code for the banking application (the one I provided earlier).
+Paste it into BankingApp.java.
+
+7. Open the Terminal in VS Code
+Go to Terminal > New Terminal to open the integrated terminal.
+
+8. Compile the Java Code
+In the VS Code terminal, type:
+javac BankingApp.java
+
+9. Run the Program
+In the terminal, type:
+java BankingApp
+
+10. Interact with the Program
+Follow the menu options that appear in the terminal to create accounts, deposit money, withdraw money, check balances, and exit.
+
+
+
+
+Sample Output:
+Here is the sample output of the program after following the above steps:
+--- Simple Banking App ---
+1. Create Account
+2. Deposit Money
+3. Withdraw Money
+4. Check Balance
+5. Exit
+Enter your choice: 1
+
+Enter account holder name: John Doe
+Enter account number: 12345
+Account created successfully!
+
+--- Simple Banking App ---
+1. Create Account
+2. Deposit Money
+3. Withdraw Money
+4. Check Balance
+5. Exit
+Enter your choice: 2
+
+Enter account number: 12345
+Enter deposit amount: 500.0
+Deposited: $500.0
+
+--- Simple Banking App ---
+1. Create Account
+2. Deposit Money
+3. Withdraw Money
+4. Check Balance
+5. Exit
+Enter your choice: 3
+
+Enter account number: 12345
+Enter withdrawal amount: 200.0
+Withdrawn: $200.0
+
+--- Simple Banking App ---
+1. Create Account
+2. Deposit Money
+3. Withdraw Money
+4. Check Balance
+5. Exit
+Enter your choice: 4
+
+Enter account number: 12345
+Current balance: $300.0
+
+--- Simple Banking App ---
+1. Create Account
+2. Deposit Money
+3. Withdraw Money
+4. Check Balance
+5. Exit
+Enter your choice: 5
+Exiting... Thank you for using the Simple Banking App!
+This output illustrates the following user actions:
+
+Account creation (1),
+Deposit money (2),
+Withdraw money (3),
+Check balance (4), and
+Exit the application (5).
