@@ -1,0 +1,44 @@
+Here are the steps to execute the Java code in Visual Studio Code (VS Code):
+
+1. Install JDK (Java Development Kit)
+Download and install JDK from Oracle’s website.
+Set the JAVA_HOME environment variable.
+
+2. Install Visual Studio Code (VS Code)
+Download and install VS Code.
+
+3. Install Java Extensions in VS Code
+Open VS Code.
+Go to the Extensions view (click on the Extensions icon in the left bar).
+Search for Java Extension Pack and click Install.
+
+4. Create a Project Folder
+Create a new folder on your computer (e.g., SimpleCalculator).
+Open that folder in VS Code by selecting File > Open Folder.
+
+5. Create a New Java File
+In VS Code, create a new file in the project folder.
+Name it SimpleCalculator.java.
+
+6. Write or Paste the Java Code
+Copy the Java code for the calculator and paste it into SimpleCalculator.java.
+
+7. Configure Java Runtime (If Needed)
+Press Ctrl+Shift+P (Windows/Linux) or Cmd+Shift+P (Mac).
+Type Java: Configure Java Runtime and follow the prompts.
+
+8. Run the Program
+Press Ctrl + F5 (Windows/Linux) or Cmd + F5 (Mac) to run the program.
+Follow the on-screen prompts in the terminal.
+
+9. Interact with the Program
+Input the operation number and the two numbers when prompted.
+
+10. Stop the Program
+To stop the program, click the trash can icon in the terminal or press Ctrl+C (Windows/Linux) or Cmd+C (Mac).
+
+11. Optional: Push the Code to GitHub
+Initialize a Git repository: git init
+Add files: git add .
+Commit changes: git commit -m "Initial commit"
+Push to GitHub: git push -u origin main
